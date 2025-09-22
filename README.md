@@ -34,25 +34,15 @@
 ---
 
 ## Objetivo
-<p align="justify">El propósito de esta tarea es que ustedes desarrollen una aplicación Android que demuestre una navegación de usuario inmersiva y temática, y que integre elementos de interfaz creativos.</p>
+<p align="justify">Crear una aplicación Android que demuestre el uso de Activities y Fragments para explicar diferentes elementos de interfaz de usuario.</p>
 
 ---
 
 ## Descripción del proyecto
-<p align="justify">Esta aplicación de Android contiene un Activity principal en el que se muestran los diferentes países de América. En dicha pantalla se encuentran una serie de botones sobre algunos de los países, que al ser seleccionados nos llevarán a otro activity, el cuál contendrá un mapa de mayor tamaño del país. Los países disponibles se listan a continuación:</p>
-<ul>
-  <li>Alaska</li>
-  <li>Groenlandia</li>
-  <li>Canadá</li>
-  <li>Estados Unidos de América</li>
-  <li>México</li>
-  <li>Venezuela</li>
-  <li>Colombia</li>
-  <li>Perú</li>
-  <li>Brasil</li>
-  <li>Argentina</li>
-  
-</ul>
+<p align="justify">Esta aplicación de Android contiene un Activity principal en el que se muestran los diferentes elementos de la interfaz de usuario. En cada una de las aplicaciones se encuentra una pequeña descripción de lo que es cada elemento y a continuación se navega hacia otro Activity para poder ver ejemplos prácticos de cada uno de los elementos.</p>
+
+
+
 <p align="center">
   <img src="fondo/America.jpeg" alt="Prueba" width="300"/>
 </p>
