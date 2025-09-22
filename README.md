@@ -18,7 +18,7 @@
 ---
 
 ## Índice
-- [Título](#tarea-2--diseño-de-una-aventura-interactiva)
+- [Título](#practica-1-instalacion-y-funcionamiento-de-los-entornos-moviles)
 - [Insignias](#insignias)
 - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -118,14 +118,17 @@ https://github.com/user-attachments/assets/77734344-893d-4594-b24c-dd554714be43
 ## Acceso al proyecto
 
 <p>Comando para clonar repositorio:</p>
-git clone https://github.com/Alfx17/Aventura_Interactiva.git
+git clone https://github.com/Alfx17/Practica1.git
 
 ---
 
 ## Tecnologías utilizadas
 - Kotlin
 - Android Studio
+- Flutter
+- Dart
 
 ---
 
 ## Desarrollador
+- Flores Morales Aldahir Andrés
