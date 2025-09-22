@@ -98,13 +98,13 @@
 </p>
 - Widget 4
 <p align="center">
-  <img src="img/Android6.jpg" alt="Prueba" width="300" />
-  <img src="img/Android7.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter6.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter7.jpg" alt="Prueba" width="300" />
 </p>
 - Widget 5
 <p align="center">
-  <img src="img/Android8.jpg" alt="Prueba" width="300" />
-  <img src="img/Android9.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter8.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter9.jpg" alt="Prueba" width="300" />
 </p>
 
 
