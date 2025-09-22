@@ -1,5 +1,7 @@
 <h1 align="center">Práctica 1: Instalación y Funcionamiento de los Entornos Móviles</h1>
-
+<p align="center">
+  <img src="img/1.png" alt="Fondo" width="300" />
+</p>
 ---
 
 ## Insignias
