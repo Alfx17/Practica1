@@ -23,8 +23,8 @@
 - [Índice](#índice)
 - [Objetivo](#objetivo)
 - [Descripción del proyecto](#descripción-del-proyecto)
-- [Ejemplo de Uso](#ejemplo-de-uso)
-- [Presentación de la aplicación](#presentación-de-la-aplicación)
+- [Versión en Android](#version-en-android)
+- [Versión en Flutter](#version-en-flutter)
 - [Estado de la tarea](#estado-de-la-tarea)
 - [Características de la aplicación](#características-de-la-aplicación)
 - [Acceso al proyecto](#acceso-al-proyecto)
@@ -41,50 +41,72 @@
 ## Descripción del proyecto
 <p align="justify">Esta aplicación de Android contiene un Activity principal en el que se muestran los diferentes elementos de la interfaz de usuario. En cada una de las aplicaciones se encuentra una pequeña descripción de lo que es cada elemento y a continuación se navega hacia otro Activity para poder ver ejemplos prácticos de cada uno de los elementos.</p>
 
+## Versión en Android
 
-
+<p align="justify">Para la versión en Android se creó un Activity principal que tiene una breve reseña de lo que son los elementos de la interfaz de usuario. Seguido de esto, se tiene un botón que nos permite navegar hacia otro acivity y en este se cargará el fragment correspondiente a la opción seleccionada anteriormente. Una vez hecho esto se muestra un breve resúmen y en la parte inferior se muestran ejemplos prácticos.</p>
+- Activity Principal
 <p align="center">
-  <img src="fondo/America.jpeg" alt="Prueba" width="300"/>
+  <img src="img/Android1.jpg" alt="Prueba" width="300" />
+  <img src="img/Android2.jpg" alt="Prueba" width="300" />
 </p>
-<p align="justify">Cada uno de los países tiene un activity, en el que se muestran por lo menos 1 de los lugares turísticos más emblemáticos del país. Cada uno de esos lugares tiene una imagen represenatativa, la cual funciona como un botón, que al darle click me envía a otro activity, en el que se mostrará un pequeño resúmen del lugar y un video representativo. En este activity tenemos la opción de regresar al mapa de América con el botón que se encuentra en la parte inferior del activity.</p>
-
+- Fragment 1
 <p align="center">
-  <img src="fondo/Mexico.jpeg" alt="Prueba" width="300" />
+  <img src="img/Android3.jpg" alt="Prueba" width="300" />
+  <img src="img/Android4.jpg" alt="Prueba" width="300" />
+  <img src="img/Android5.jpg" alt="Prueba" width="300" />
 </p>
-
-<p align="justify">Una vez que se le dio click en la imagen de lugar turístico que se desea conocer, se abre un activity en el que se carga el fragment correspondiente al lugar. En este fragment se muestra el título en la parte superior, seguido de una descripción breve y un video representativo. Al final tenemos un botón que nos permite regresar al mapa del país en el que visitamos el lugar para poder seguir observando otros lugares.  
-</p>
-
+- Fragment 2
 <p align="center">
-  <img src="fondo/Vallarta.jpeg" alt="Prueba" width="300" />
+  <img src="img/Android6.jpg" alt="Prueba" width="300" />
+  <img src="img/Android7.jpg" alt="Prueba" width="300" />
+</p>
+- Fragment 3
+<p align="center">
+  <img src="img/Android8.jpg" alt="Prueba" width="300" />
+  <img src="img/Android9.jpg" alt="Prueba" width="300" />
+</p>
+- Fragment 4
+<p align="center">
+  <img src="img/Android10.jpg" alt="Prueba" width="300" />
+</p>
+- Fragment 5
+<p align="center">
+  <img src="img/Android11.jpg" alt="Prueba" width="300" />
+  <img src="img/Android12.jpg" alt="Prueba" width="300" />
 </p>
 
----
-## Ejemplo de Uso
-<table>
-  <tr>
-    <th>Elección del país a visitar</th>
-    <th>Elección del lugar visitar</th>
-    <th>Resúmen del lugar</th>
-  </tr>
-  <tr>
-    <th>
-      <img src="fondo/America.jpeg" alt="Prueba" width="300" />
-    </th>
-    <th>
-      <img src="fondo/Colombia.jpeg" alt="Prueba" width="300" />
-    </th>
-    <th>
-      <img src="fondo/Cartagena.jpeg" alt="Prueba" width="300" />
-    </th>
-  </tr>
-</table>
+## Versión en Flutter
+<p align="justify">Para la versión en Flutter se creó un Activity principal que tiene una breve reseña y que coloca los elementos uno abajo del otro. Para poder conocer más acerca de los elementos, se tiene un botón en la parte superior que nos permite navegar hacia otro Activity. Seguido de esto, tiene un menú inferior que me permite navegar en los diferentes widgets, dependiendo de la opción seleccionada anteriormente. Una vez hecho esto se muestra un breve resúmen y en la parte inferior se muestran ejemplos prácticos.</p>
 
+- Activity Principal
+<p align="center">
+  <img src="img/Flutter1.jpg" alt="Prueba" width="300" />
+</p>
+- Widget 1
+<p align="center">
+  <img src="img/Flutter2.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter3.jpg" alt="Prueba" width="300" />
+</p>
+- Widget 2
+<p align="center">
+  <img src="img/Flutter10.jpg" alt="Prueba" width="300" />
+</p>
+- Widget 3
+<p align="center">
+  <img src="img/Flutter4.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter5.jpg" alt="Prueba" width="300" />
+</p>
+- Widget 4
+<p align="center">
+  <img src="img/Android6.jpg" alt="Prueba" width="300" />
+  <img src="img/Android7.jpg" alt="Prueba" width="300" />
+</p>
+- Widget 5
+<p align="center">
+  <img src="img/Android8.jpg" alt="Prueba" width="300" />
+  <img src="img/Android9.jpg" alt="Prueba" width="300" />
+</p>
 
----
-
-## Presentación de la aplicación 
-https://github.com/user-attachments/assets/77734344-893d-4594-b24c-dd554714be43
 
 
 ---
@@ -99,9 +121,7 @@ https://github.com/user-attachments/assets/77734344-893d-4594-b24c-dd554714be43
 - [x] Uso de Activities
 - [x] Uso de Fragments
 - [x] Los botones de la pantalla de inicio me dirigen a otro Activity
-- [x] Cada país tiene un Activity diferente
-- [x] Los botones de cada país me dirigen a otro Activity
-- [x] En le Activity del lugar turístico se carga el Fragment correspondiente   
+- [x] Cada elemento de interfaz de usuario es un fragment o un widget, dependiendo de la herramienta utilizada
 
 ---
 
