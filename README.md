@@ -25,6 +25,7 @@
 - [Instalación de Java Development Kit(JDK)](#instalacion-de-jdk)
 - [Instalación de Maven](#instalacion-de-maven)
 - [Instalación de Git](#instalacion-de-git)
+- [Instalación de GitHub](#instalacion-de-github)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -134,9 +135,23 @@ Paso 3: Verifica la instalación con Git Bash
 - Para asegurarte de que Git se ha instalado correctamente, abre Git Bash y escribe el siguiente comando: git --version
 
 <p align="center">
-  <img src="img/git.png" alt="Prueba" width="700" />
+  <img src="img/git.png" alt="Prueba" width="600" />
 </p>
 
+---
+
+## Instalación de GitHub
+
+Puedes instalar GitHub Desktop en Windows 10 de 64 bits o posterior, pero debes tener un sistema operativo de 64 bits para ejecutar GitHub Desktop.
+Pasos para instalarlo:
+- Visite la página de descarga de GitHub Desktop.
+- Haz clic en Descargar para Windows.
+- En la carpeta Downloads del equipo, haz doble clic en el archivo de configuración de GitHub Desktop .
+- GitHub Desktop se lanzará después de que se complete la instalación.
+
+<p align="center">
+  <img src="img/github.png" alt="Prueba" width="300" />
+</p>
 
 ---
 
