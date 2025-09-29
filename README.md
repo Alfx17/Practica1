@@ -27,6 +27,7 @@
 - [Instalación de Git](#instalacion-de-git)
 - [Instalación de GitHub](#instalacion-de-github)
 - [Instalación de Docker](#instalacion-de-docker)
+- [Instalación de Node.js](#instalacion-de-node)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -170,6 +171,23 @@ Instalar de forma interactiva:
   <img src="img/docker.png" alt="Prueba" width="400" />
   <img src="img/docker1.png" alt="Prueba" width="400" />
 </p>
+
+---
+
+## Instalación de Node.js
+
+1. Descargar el Instalador de Windows: En primer lugar, es necesario descargar el archivo de instalación de Windows Installer (.msi) del sitio web oficial de Node.js. Esta base de datos del instalador MSI lleva una colección de archivos de instalación esenciales para instalar, actualizar o modificar la versión existente de Node.js.
+2. Comenzar el Proceso de Instalación: Una vez que abras y ejecutes el archivo .msi, comenzará el proceso de instalación. Pero tienes que establecer algunos parámetros antes de ejecutar el proceso de instalación. Haz doble clic en el archivo de instalación y ejecútalo. El instalador te pedirá que aceptes el acuerdo de licencia de Node.js. Para seguir adelante, marca la casilla «Acepto» y haz clic en Siguiente: Aceptar el acuerdo de licencia de Node.js.
+3. Ejecutar la Instalación de Node.js en Windows: Por último, y esta es la parte más fácil de todas, haz clic en el botón Instalar para comenzar el proceso de instalación:Iniciando la instalación de Node.js. El sistema completará la instalación en unos segundos o minutos y te mostrará un mensaje de éxito. Haz clic en el botón Finalizar para cerrar el instalador de Node.js.
+4. Verificar la Instalación de Node.js: El proceso de instalación se ha completado. Ahora, tienes que comprobar si Node.js se ha instalado con éxito o no. Para verificar la instalación y confirmar si se ha instalado la versión correcta, abre la línea de comandos de tu PC e introduce el siguiente comando:
+Node --version
+Y para comprobar la versión de npm, ejecuta este comando:
+npm --version
+
+<p align="center">
+  <img src="img/node.png" alt="Prueba" width="400" />
+</p>
+
 
 ---
 
