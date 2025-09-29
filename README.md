@@ -167,8 +167,8 @@ Instalar de forma interactiva:
 - Inicie Docker Desktop .
 
 <p align="center">
-  <img src="img/docker.png" alt="Prueba" width="300" />
-  <img src="img/docker1.png" alt="Prueba" width="300" />
+  <img src="img/docker.png" alt="Prueba" width="400" />
+  <img src="img/docker1.png" alt="Prueba" width="400" />
 </p>
 
 ---
