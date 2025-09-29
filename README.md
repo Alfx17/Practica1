@@ -98,10 +98,10 @@ Los pasos detallados son:
 - Extraiga el archivo de distribución en cualquier directorio. Use unzip apache-maven-3.9.11-bin.zip o tar xzvf apache-maven-3.9.11-bin.tar.gzsegún el archivo.
 - Añade el bindirectorio del directorio creado apache-maven-3.9.11a la PATHvariable de entorno
 - Confirmar con mvn -vun nuevo shell.
-- 
+
 A continuación se muestra que el comando ya está funcionando:
 <p align="center">
-  <img src="img/maven.png" alt="Prueba" width="300" />
+  <img src="img/maven.png" alt="Prueba" width="600" />
 </p>
 
 ---
