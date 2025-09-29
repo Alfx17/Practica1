@@ -38,6 +38,7 @@
 <p align="justify">Crear una aplicación Android que demuestre el uso de Activities y Fragments para explicar diferentes elementos de interfaz de usuario.</p>
 
 ---
+
 ## Descarga del entorno de programación 
 Para instalar Android Studio en Windows, se siguen estos pasos:
 - Descomprimir el Zip.
@@ -56,6 +57,7 @@ Para verificar el correcto funcionamiento del entorno, se creó la aplicación "
 <p align="center">
   <img src="img/HelloAndroid.png" alt="Prueba" width="300" />
 </p>
+
 ---
 
 ## Instalación de Java Development Kit(JDK)
@@ -75,8 +77,11 @@ En mi caso se realizó una actualización cambiando mis variables de entorno, ya
 </p>
 
 ---
+
 ## Descripción del proyecto
 <p align="justify">Esta aplicación de Android contiene un Activity principal en el que se muestran los diferentes elementos de la interfaz de usuario. En cada una de las aplicaciones se encuentra una pequeña descripción de lo que es cada elemento y a continuación se navega hacia otro Activity para poder ver ejemplos prácticos de cada uno de los elementos.</p>
+
+---
 
 ## Versión en Android
 
@@ -111,6 +116,8 @@ En mi caso se realizó una actualización cambiando mis variables de entorno, ya
   <img src="img/Android11.jpg" alt="Prueba" width="300" />
   <img src="img/Android12.jpg" alt="Prueba" width="300" />
 </p>
+
+---
 
 ## Versión en Flutter
 <p align="justify">Para la versión en Flutter se creó un Activity principal que tiene una breve reseña y que coloca los elementos uno abajo del otro. Para poder conocer más acerca de los elementos, se tiene un botón en la parte superior que nos permite navegar hacia otro Activity. Seguido de esto, tiene un menú inferior que me permite navegar en los diferentes widgets, dependiendo de la opción seleccionada anteriormente. Una vez hecho esto se muestra un breve resúmen y en la parte inferior se muestran ejemplos prácticos.</p>
