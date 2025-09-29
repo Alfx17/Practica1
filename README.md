@@ -24,6 +24,7 @@
 - [Descarga del entorno de programación](#descarga-del-entorno-de-programacion)
 - [Instalación de Java Development Kit(JDK)](#instalacion-de-jdk)
 - [Instalación de Maven](#instalacion-de-maven)
+- [Instalación de Git](#instalacion-de-git)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -103,6 +104,39 @@ A continuación se muestra que el comando ya está funcionando:
 <p align="center">
   <img src="img/maven.png" alt="Prueba" width="600" />
 </p>
+
+---
+
+## Instalación de Git
+
+Instalar Git en Windows implica los siguientes pasos:
+
+- Descarga el instalador de Windows
+- Ejecuta el instalador
+- Verifica la instalación
+
+Paso 1: Descarga el Instalador de Windows
+- Visita la página oficial de Git para descargar la última versión del instalador de Git para Windows. La descarga debería iniciarse automáticamente cuando visites la página.
+- Descargar Git para Windows.
+
+Paso 2: Ejecuta el Instalador y Selecciona las Opciones
+- Ejecuta el instalador descargado y sigue el asistente de instalación. Confirma que la aplicación puede realizar cambios en tu dispositivo haciendo clic en Sí en el cuadro de diálogo Control de Cuentas de Usuario que aparece.
+- Lee la Licencia Pública General GNU y, cuando estés preparado para instalar, haz clic en Siguiente.
+- Acepta la licencia GNU.
+- El instalador te pedirá una ubicación para la instalación. Mantén la predeterminada a menos que necesites cambiarla, y haz clic en Siguiente.
+- Selecciona la ubicación de destino para Git en tu ordenador.
+- Aparecerá una pantalla de selección de componentes. Mantén la configuración por defecto a menos que necesites modificarla, y haz clic en Siguiente.
+- Selecciona los componentes que quieras instalar con Git.
+- Elige un editor de texto para utilizar con Git. Haz clic en el menú desplegable para elegir el editor de texto que quieras utilizar, como Vim, Notepad++, etc. y haz clic en Siguiente.
+
+Paso 3: Verifica la instalación con Git Bash
+- En este siguiente paso, puedes optar por renombrar tu rama inicial. Por defecto es master. Deja el predeterminado (a menos que realmente quieras cambiarlo) y haz clic en Siguiente.
+- Para asegurarte de que Git se ha instalado correctamente, abre Git Bash y escribe el siguiente comando: git --version
+
+<p align="center">
+  <img src="img/git.png" alt="Prueba" width="700" />
+</p>
+
 
 ---
 
