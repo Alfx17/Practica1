@@ -28,6 +28,7 @@
 - [Instalación de GitHub](#instalacion-de-github)
 - [Instalación de Docker](#instalacion-de-docker)
 - [Instalación de Node.js](#instalacion-de-node)
+- [Instalación de Flutter](#instalacion-de-flutter)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -177,8 +178,8 @@ Instalar de forma interactiva:
 ## Instalación de Node.js
 
 1. Descargar el Instalador de Windows: En primer lugar, es necesario descargar el archivo de instalación de Windows Installer (.msi) del sitio web oficial de Node.js. Esta base de datos del instalador MSI lleva una colección de archivos de instalación esenciales para instalar, actualizar o modificar la versión existente de Node.js.
-2. Comenzar el Proceso de Instalación: Una vez que abras y ejecutes el archivo .msi, comenzará el proceso de instalación. Pero tienes que establecer algunos parámetros antes de ejecutar el proceso de instalación. Haz doble clic en el archivo de instalación y ejecútalo. El instalador te pedirá que aceptes el acuerdo de licencia de Node.js. Para seguir adelante, marca la casilla «Acepto» y haz clic en Siguiente: Aceptar el acuerdo de licencia de Node.js.
-3. Ejecutar la Instalación de Node.js en Windows: Por último, y esta es la parte más fácil de todas, haz clic en el botón Instalar para comenzar el proceso de instalación:Iniciando la instalación de Node.js. El sistema completará la instalación en unos segundos o minutos y te mostrará un mensaje de éxito. Haz clic en el botón Finalizar para cerrar el instalador de Node.js.
+2. Comenzar el Proceso de Instalación: Una vez que abras y ejecutes el archivo .msi, comenzará el proceso de instalación. El instalador te pedirá que aceptes el acuerdo de licencia de Node.js. Para seguir adelante, marca la casilla «Acepto» y haz clic en Siguiente: Aceptar el acuerdo de licencia de Node.js.
+3. Ejecutar la Instalación de Node.js en Windows: Por último, y esta es la parte más fácil de todas, haz clic en el botón Instalar para comenzar el proceso de instalación. El sistema completará la instalación en unos segundos o minutos y te mostrará un mensaje de éxito. Haz clic en el botón Finalizar para cerrar el instalador de Node.js.
 4. Verificar la Instalación de Node.js: El proceso de instalación se ha completado. Ahora, tienes que comprobar si Node.js se ha instalado con éxito o no. Para verificar la instalación y confirmar si se ha instalado la versión correcta, abre la línea de comandos de tu PC e introduce el siguiente comando:
 Node --version
 Y para comprobar la versión de npm, ejecuta este comando:
@@ -188,6 +189,26 @@ npm --version
   <img src="img/node.png" alt="Prueba" width="400" />
 </p>
 
+---
+
+## Instalación de Flutter
+Pasos para descargar Flutter: 
+- Lanzar VS Code: Si aún no está abierto, abra VS Code buscándolo con Spotlight o abriéndolo manualmente desde el directorio donde está instalado.
+- Añade la extensión Flutter a VS Code: Para agregar las extensiones de Dart y Flutter a VS Code, visita la página del marketplace de extensiones de Flutter y haz clic en " Instalar" . Si tu navegador lo solicita, permite que se abra VS Code.
+- Instalar Flutter con VS Code.
+- Abra la paleta de comandos en VS Code: Vaya a Ver > Paleta de comandos o presione Control+ Shift+ P. En la paleta de comandos, escriba flutter.
+- Seleccione Flutter: Nuevo proyecto .
+- VS Code te pide que busques el SDK de Flutter en tu computadora. Selecciona "Descargar SDK": Cuando aparezca el cuadro de diálogo Seleccionar carpeta para Flutter SDK , elija dónde desea instalar Flutter.
+- Haga clic en Clonar Flutter .
+- Al descargar Flutter, VS Code muestra esta notificación emergente: Downloading the Flutter SDK. This may take a few minutes.
+- Haga clic en Agregar SDK a PATH.
+- Cuando tenga éxito, aparecerá una notificación: The Flutter SDK was added to your PATH content_copy.
+- Para garantizar que Flutter esté disponible en todas las terminales: Cierre y vuelva a abrir todas las ventanas de terminal.
+- Reiniciar VS Code.
+
+<p align="center">
+  <img src="img/flutter.png" alt="Prueba" width="400" />
+</p>
 
 ---
 
