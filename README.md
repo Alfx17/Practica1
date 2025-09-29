@@ -26,6 +26,7 @@
 - [Instalación de Maven](#instalacion-de-maven)
 - [Instalación de Git](#instalacion-de-git)
 - [Instalación de GitHub](#instalacion-de-github)
+- [Instalación de Docker](#instalacion-de-docker)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -151,6 +152,23 @@ Pasos para instalarlo:
 
 <p align="center">
   <img src="img/github.png" alt="Prueba" width="300" />
+</p>
+
+---
+
+## Instalación de Docker
+Instalar de forma interactiva:
+- Descargue el instalador utilizando el botón de descarga en la parte superior de la página o desde las notas de la versión .
+- Haga doble clic Docker Desktop Installer.exepara ejecutar el instalador. Docker Desktop se instala de forma predeterminada en C:\Program Files\Docker\Docker.
+- Cuando se le solicite, asegúrese de que la opción Usar WSL 2 en lugar de Hyper-V en la página Configuración esté seleccionada o no, según su elección de backend.
+- En los sistemas que solo admiten un backend, Docker Desktop selecciona automáticamente la opción disponible.
+- Siga las instrucciones del asistente de instalación para autorizar al instalador y continuar con la instalación.
+- Cuando la instalación sea exitosa, seleccione Cerrar para completar el proceso de instalación.
+- Inicie Docker Desktop .
+
+<p align="center">
+  <img src="img/docker.png" alt="Prueba" width="300" />
+  <img src="img/docker1.png" alt="Prueba" width="300" />
 </p>
 
 ---
