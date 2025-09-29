@@ -7,7 +7,8 @@ class ListWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final items = List.generate(10, (i) => "Elemento ${i + 1}");
 
-    return Padding(
+    return Container(
+      color: const Color.fromARGB(255, 184, 132, 184),
       padding: const EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

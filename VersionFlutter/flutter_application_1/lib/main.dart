@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'activity.dart'; 
+import 'screenActivity.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +24,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
   return Scaffold(
-    appBar: AppBar(title: const Text("Elementos de Interfaz de Usuario")),
+    backgroundColor: const Color.fromARGB(255, 196, 187, 151),
+    appBar: AppBar(
+      title: const Text("Elementos de Interfaz de Usuario"),
+      backgroundColor: const Color.fromARGB(255, 66, 58, 10),
+      foregroundColor: const Color.fromARGB(255, 196, 187, 151),      
+      ),
     body: Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
@@ -33,9 +38,17 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const UIActivity()),
+                MaterialPageRoute(builder: (context) => const ScreenActivity()),
               );
             },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color.fromARGB(255, 66, 58, 10),
+              foregroundColor: const Color.fromARGB(255, 196, 187, 151),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+            ),
             child: const Text("Conocer más sobre los elementos"),
           ),
           const SizedBox(height: 20),

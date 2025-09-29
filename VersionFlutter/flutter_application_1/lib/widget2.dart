@@ -5,7 +5,8 @@ class ButtonsWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Container(
+      color: const Color.fromARGB(255, 150, 212, 153),
       child: Padding(
         padding: const EdgeInsets.all(16.0), 
         child: Column(

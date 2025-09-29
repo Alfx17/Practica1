@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
 import 'widget1.dart';
 import 'widget2.dart';
 import 'widget3.dart';
 import 'widget4.dart';
 import 'widget5.dart';
 
-class UIActivity extends StatefulWidget {
-  const UIActivity({super.key});
+class ScreenActivity extends StatefulWidget {
+  const ScreenActivity({super.key});
 
   @override
-  State<UIActivity> createState() => _UIActivityState();
+  State<ScreenActivity> createState() => _ScreenActivityState();
 }
 
-class _UIActivityState extends State<UIActivity> {
+class _ScreenActivityState extends State<ScreenActivity> {
   int _currentIndex = 0;
 
   final List<Widget> _widgets = const [
@@ -27,7 +26,11 @@ class _UIActivityState extends State<UIActivity> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Descripción: ")),
+      appBar: AppBar(
+        title: const Text("Descripción: "),
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        ),
       body: _widgets[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,

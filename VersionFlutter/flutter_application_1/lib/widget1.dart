@@ -7,8 +7,11 @@ class TextFieldsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = TextEditingController();
 
-    return Padding(
+    return Container(
       padding: const EdgeInsets.all(16.0),
+      decoration: BoxDecoration(
+        color: const Color.fromARGB(255, 144, 182, 197),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

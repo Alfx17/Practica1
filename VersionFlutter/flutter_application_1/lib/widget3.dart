@@ -14,7 +14,8 @@ class _SelectionWidgetState extends State<SelectionWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return Container(
+      color: const Color.fromARGB(255, 209, 182, 165),
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
