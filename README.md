@@ -23,6 +23,7 @@
 - [Objetivo](#objetivo)
 - [Descarga del entorno de programación](#descarga-del-entorno-de-programacion)
 - [Instalación de Java Development Kit(JDK)](#instalacion-de-jdk)
+- [Instalación de Maven](#instalacion-de-maven)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -74,6 +75,33 @@ En mi caso se realizó una actualización cambiando mis variables de entorno, ya
 <p align="center">
   <img src="img/JDK.png" alt="Prueba" width="300" />
   <img src="img/JDK1.png" alt="Prueba" width="500" />
+</p>
+
+---
+
+## Instalación de Maven
+
+Instalación:
+
+Apache Maven se puede instalar mediante la mayoría de los administradores de paquetes o manualmente descargando el archivo y agregándolo a su ruta.
+
+Prerrequisitos: 
+
+Necesita tener instalado el Kit de Desarrollo de Java (JDK). Configure la JAVA_HOME variable de entorno con la ruta de instalación del JDK o tenga el javaejecutable en su PATH.
+La versión estable actual 3.9.11requiere JDK 8+, pero cualquier versión reciente funcionará bien.
+
+Distribución binaria:
+- Para instalar Apache Maven, extraiga el archivo y añada su directorio bin al archivo PATH. Esto funciona en cualquier sistema operativo, pero la configuración de la ruta y las variables de entorno depende del sistema operativo.
+
+Los pasos detallados son:
+- Descargue el archivo de distribución binaria de Apache Maven .
+- Extraiga el archivo de distribución en cualquier directorio. Use unzip apache-maven-3.9.11-bin.zip o tar xzvf apache-maven-3.9.11-bin.tar.gzsegún el archivo.
+- Añade el bindirectorio del directorio creado apache-maven-3.9.11a la PATHvariable de entorno
+- Confirmar con mvn -vun nuevo shell.
+- 
+A continuación se muestra que el comando ya está funcionando:
+<p align="center">
+  <img src="img/maven.png" alt="Prueba" width="300" />
 </p>
 
 ---
