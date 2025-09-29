@@ -2,7 +2,6 @@
 <p align="center">
   <img src="img/1.png" alt="Fondo" width="300" />
 </p>
----
 
 ## Insignias
 ![Estado](https://img.shields.io/badge/Estado-Terminado-brightgreen)
@@ -72,7 +71,7 @@ Para verificar el correcto funcionamiento del entorno, se creó la aplicación "
 En mi caso se realizó una actualización cambiando mis variables de entorno, ya que tenía instalado JDK 18.
 <p align="center">
   <img src="img/JDK.png" alt="Prueba" width="300" />
-  <img src="img/JDK1.png" alt="Prueba" width="300" />
+  <img src="img/JDK1.png" alt="Prueba" width="500" />
 </p>
 
 ---
