@@ -80,31 +80,31 @@
 
 - Activity Principal
 <p align="center">
-  <img src="img/Flutter1.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter1.png" alt="Prueba" width="300" />
 </p>
 - Widget 1
 <p align="center">
-  <img src="img/Flutter2.jpg" alt="Prueba" width="300" />
-  <img src="img/Flutter3.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter2.png" alt="Prueba" width="300" />
+  <img src="img/Flutter3.png" alt="Prueba" width="300" />
 </p>
 - Widget 2
 <p align="center">
-  <img src="img/Flutter10.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter10.png" alt="Prueba" width="300" />
 </p>
 - Widget 3
 <p align="center">
-  <img src="img/Flutter4.jpg" alt="Prueba" width="300" />
-  <img src="img/Flutter5.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter4.png" alt="Prueba" width="300" />
+  <img src="img/Flutter5.png" alt="Prueba" width="300" />
 </p>
 - Widget 4
 <p align="center">
-  <img src="img/Flutter6.jpg" alt="Prueba" width="300" />
-  <img src="img/Flutter7.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter6.png" alt="Prueba" width="300" />
+  <img src="img/Flutter7.png" alt="Prueba" width="300" />
 </p>
 - Widget 5
 <p align="center">
-  <img src="img/Flutter8.jpg" alt="Prueba" width="300" />
-  <img src="img/Flutter9.jpg" alt="Prueba" width="300" />
+  <img src="img/Flutter8.png" alt="Prueba" width="300" />
+  <img src="img/Flutter9.png" alt="Prueba" width="300" />
 </p>
 
 
