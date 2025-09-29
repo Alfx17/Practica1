@@ -22,6 +22,7 @@
 - [Insignias](#insignias)
 - [Índice](#índice)
 - [Objetivo](#objetivo)
+- [Descarga del entorno de programación](#descarga-del-entorno-de-programacion)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -37,7 +38,26 @@
 <p align="justify">Crear una aplicación Android que demuestre el uso de Activities y Fragments para explicar diferentes elementos de interfaz de usuario.</p>
 
 ---
+## Descarga del entorno de programación 
+Para instalar Android Studio en Windows, se siguen estos pasos:
+- Descomprimir el Zip.
+- Copiar la carpeta android-studio en la carpeta Archivos de programa.
+- Abrir la carpeta android-studio > bin.
+- Iniciar studio64.exe (para máquinas de 64 bits).
+- Seguir los pasos del Setup Wizard en Android Studio y, luego, instalar los paquetes de SDK recomendados.
+- Una vez realizados los pasos anteriores, se deberá ejecutar el instalador y realizar las configuraciones correspondientes para instalarlo correctamente.
 
+<p align="center">
+  <img src="img/DescargaAndroid.png" alt="Prueba" width="300" />
+  <img src="img/DescargaAndroid1.png" alt="Prueba" width="300" />
+</p>
+
+Para verificar el correcto funcionamiento del entorno, se creó la aplicación "Hello Android" para observar el funcionamiento del emulador descargado.
+<p align="center">
+  <img src="img/HelloAndroid.png" alt="Prueba" width="300" />
+</p>
+
+---
 ## Descripción del proyecto
 <p align="justify">Esta aplicación de Android contiene un Activity principal en el que se muestran los diferentes elementos de la interfaz de usuario. En cada una de las aplicaciones se encuentra una pequeña descripción de lo que es cada elemento y a continuación se navega hacia otro Activity para poder ver ejemplos prácticos de cada uno de los elementos.</p>
 
