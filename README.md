@@ -23,6 +23,7 @@
 - [Índice](#índice)
 - [Objetivo](#objetivo)
 - [Descarga del entorno de programación](#descarga-del-entorno-de-programacion)
+- [Instalación de Java Development Kit(JDK)](#instalacion-de-jdk)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Versión en Android](#version-en-android)
 - [Versión en Flutter](#version-en-flutter)
@@ -55,6 +56,23 @@ Para instalar Android Studio en Windows, se siguen estos pasos:
 Para verificar el correcto funcionamiento del entorno, se creó la aplicación "Hello Android" para observar el funcionamiento del emulador descargado.
 <p align="center">
   <img src="img/HelloAndroid.png" alt="Prueba" width="300" />
+</p>
+---
+
+## Instalación de Java Development Kit(JDK)
+
+- Descargue un .msiarchivo de Windows desde la página de Descargas.
+- Haga doble clic en el archivo .msi para iniciar el asistente de instalación.
+- Siga los pasos del asistente.
+- Tiene la opción de configurar una ruta de instalación personalizada. De forma predeterminada, Amazon Corretto 21 se instala en [nombre del dominio C:\Program Files\Amazon Corretto\]. Si configura una ruta personalizada, anótela para el siguiente paso.
+- Una vez finalizado el asistente de instalación, configure las variables de entorno JAVA_HOMEy .PATH
+- Establezca JAVA_HOME la ubicación de instalación, teniendo en cuenta que el directorio contiene la versión instalada. Por ejemplo, si el directorio predeterminado es 21.0.8, configúrelo JAVA_HOME como C:\Program Files\Amazon Corretto\jdk21.0.8_9.
+- Añadir %JAVA_HOME%\bina la PATH variable actual.
+- Verifique la instalación ejecutando java -version en el símbolo del sistema. Debería ver el siguiente resultado.
+En mi caso se realizó una actualización cambiando mis variables de entorno, ya que tenía instalado JDK 18.
+<p align="center">
+  <img src="img/JDK.png" alt="Prueba" width="300" />
+  <img src="img/JDK1.png" alt="Prueba" width="300" />
 </p>
 
 ---
